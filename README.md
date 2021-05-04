@@ -50,3 +50,35 @@ Content:
 # Then I conclude like this
 ```
 
+# `utilities.py`
+
+This file provides 2 functions.
+
+```python
+def parse_model_name(model_name, verbose=True):
+    """To parse model name into json/dict
+
+    Parameters:
+        model_name: a string
+        verbose: a bool
+
+    Returns:
+        a json/dict
+    """
+```
+
+```python
+def pprint_md(markdown_file):
+    """To pretty print a markdown file with pygmentize
+
+    Run `pip install Pygments` if there is none
+
+    Parameters:
+        markdown_file: a path to markdown file
+
+    Returns: 
+        none
+    """
+```
+
+Run `utilities.py` to see the demo.

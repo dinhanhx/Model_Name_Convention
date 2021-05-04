@@ -60,8 +60,7 @@ def pprint_md(markdown_file):
 if '__main__' == __name__:
     model_name = 'ICT6-1_K80_12GiB-UNITER-vladsandulescu-dax-2021_04_30_09_39'
     model_name_json = parse_model_name(model_name, verbose=True)
+    pprint_md(model_name+'.md')
 
-    model_name = 'ICT6-4_K80_12GiB-VilBERT_CC-mmf_hateful_memes-2021_04_21_16_21'
-    model_name_json = parse_model_name(model_name, verbose=True)
-
-    pprint_md('Model_Name_Convention.md')
+    # model_name = 'ICT6-4_K80_12GiB-VilBERT_CC-mmf_hateful_memes-2021_04_21_16_21'
+    # model_name_json = parse_model_name(model_name, verbose=True)
