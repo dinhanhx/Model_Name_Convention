@@ -7,7 +7,7 @@
 Explanation of tags:
 - `host`: where gives gpus
 - `gpu config`: `x` `gpu name` `y` GiB
-- `core model name`: name of the largest model or name of the most important model
+- `core model name`: name of the largest model or name of the most important model or name of ensemble system.
 - `internet source`: name that can be searched easily on the internet to find `core model name` 
 - `dax`: to indicate that I (Vu Dinh Anh) have modified model or hyper-parameters. If there is no, it means that I used exact model or hyper-parameters.
 - `timestamp`: year, month, day, hour, minute ~ `YY_MM_DD_HH_mm`
